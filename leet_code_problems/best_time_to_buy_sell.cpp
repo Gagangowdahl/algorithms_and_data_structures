@@ -34,7 +34,8 @@ int maximum_profit(const std::vector<int>& prices)
     return max_profit;
 }
 
-void print_vector(const std::vector<int>& vec) {
+void print_vector(const std::vector<int>& vec)   
+{
     for (auto v : vec) {
         std::cout << v << " ";
     }
